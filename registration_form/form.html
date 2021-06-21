@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Registration Form</title>
+   </head>
+   <body>
+      <h1>Registration Form</h1>
+      <form>
+         <div>
+            <label>First Name:*</label>
+            <input type="text" name="First Name">
+         </div>
+         <div>
+            <label>Last Name:*</label>
+            <input type="text" name="Last Name">
+         </div>
+         <div>
+            <label>Email Address:*</label>
+            <input type="text" name="Email Address">
+         </div>
+         <div>
+            <label>Password:*</label>
+            <input type="password" name="Password">
+         </div>
+         <div>
+            <label>Birthday:*</label>
+            <input type="date" name="DOB">
+         </div>
+         <p>Gender Identity:</p>
+         <div>
+            <input type="radio" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="nonbinary" value="nonbinary">
+            <label for="nonbinary">Non Binary</label>
+            <input type="radio" name="noanswer" value="noanswer">
+            <label for="noanswer">Prefer not to answer</label>
+         </div>
+         <div>
+            <p>A short description of myself:</p>
+            <textarea rows = "5" cols="50" name= "description"></textarea>
+         </div>
+         <div>
+            <label for="language">Favorite language:</label>
+            <select name="language">
+               <option value="javascript">JavaScript</option>
+               <option value="java">Java</option>
+               <option value="python">Python</option>
+            </select>
+         </div>
+         <div>
+            <input type="checkbox" name=yes>
+            <label for="yes" name="yes" value="yes">Yes, I would like to recieve periodic email updates</label>
+         </div>
+         <input type="submit" value="Create Account!">
+      </form>
+      <p>* <i>Indicates a required field</i></p>
+   </body>
+</html>
